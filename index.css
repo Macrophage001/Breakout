@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+#root, .app {
+	height: 100%;
+}
+
+.game-window {
+	border: 2px solid red;
+	width: 640px;
+	height: 480px;
+}
+
+.paddle {
+	position: absolute;
+	width: 64px;
+	height: 32px;
+	background-color: green;
+}
